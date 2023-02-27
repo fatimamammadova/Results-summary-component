@@ -5,13 +5,13 @@
 }
 :root {
     --cobalt: hsl(234, 85%, 45%);
-    --cobalt-a: hsla(234, 85%, 45%,.07);
-    --red-a: hsla(0, 100%, 67%,.07);
+    --cobalt-a: hsla(234, 85%, 45%,.06);
+    --red-a: hsla(0, 100%, 67%,.06);
     --red:hsl(0, 100%, 67%);
     --orange:hsl(39, 100%, 56%);
-    --orange-a:hsla(39, 100%, 56%,0.07);
+    --orange-a:hsla(39, 100%, 56%,.06);
     --teal:hsl(166, 100%, 37%);
-    --teal-a:hsla(166, 100%, 37%,.07);
+    --teal-a:hsla(166, 100%, 37%,.06);
     --slate-b:hsl(252, 100%, 67%);
     --royal-b:hsl(241, 81%, 54%);
     --violet-c:hsla(256, 72%, 46%, 1);
@@ -82,7 +82,7 @@ body {
     width: 245px;
     margin-top: 20px;
 }
-i {
+img {
     margin-right: 15px;
 }
 .part2 {
@@ -121,7 +121,7 @@ i {
     background-color: var(--red-a);
     border-radius: 7px;
 }
-.reaction i,.reaction .color{
+.reaction img,.reaction .color{
     color: var(--red);
 }
 
@@ -129,7 +129,7 @@ i {
     background-color: var(--orange-a);
     border-radius: 7px;
 }
-.memory i,.memory .color{
+.memory img,.memory .color{
     color: var(--orange);
 }
 
@@ -137,7 +137,7 @@ i {
     background-color: var(--teal-a);
     border-radius: 7px;
 }
-.verbal i,.verbal .color{
+.verbal img,.verbal .color{
     color: var(--teal);
 }
 
@@ -147,7 +147,7 @@ i {
     margin-bottom: 0;
     margin-bottom: 40px;
 }
-.visual i,.visual .color{
+.visual img,.visual .color{
     color: var(--cobalt);
 }
 button {
@@ -234,7 +234,7 @@ button:hover {
     button {
         width: 90%;
         margin: 0 auto;
-        height: 56px;
+        height: 60px;
         margin-top: 25px;
         margin-bottom: 30px;
     }
